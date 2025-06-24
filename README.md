@@ -1,5 +1,6 @@
-# Women-Safety-App
+# Guardia - Women's Safety Application
 
+Guardia is a comprehensive women's safety application designed to provide immediate assistance and support in emergency situations. The application combines real-time location tracking, emergency alerts, and access to legal resources to ensure women's safety.
 
 ## Basic Details
 ### Team Members
@@ -9,114 +10,72 @@
 - Member 4: Eshan James - SCMS School of Engineering and Technology
 
 
-### Project Description
-Guardia – Women’s Safety Web App is a full-stack application developed to ensure real-time security and emergency assistance for women. It combines emergency alerts, geofencing, real-time tracking, legal/self-defense resources, and community safety reporting into a unified, user-friendly platform. This solution emphasizes fast help, local safety info, and secure user management, built using a modern JavaScript/TypeScript-based stack.
+## Key Features
 
-### The Problem statement
-Despite the availability of women’s safety apps, many lack critical features like immediate response, geofencing, or integration with emergency resources. In high-risk or panic situations, traditional communication methods may fail. There's a need for a fast, discreet, and reliable web application that empowers women to call for help, access support, and alert communities in real time.
+### 1. Emergency SOS System
+- Quick access emergency button for immediate help
+- Automatic alerts to emergency contacts
+- Real-time location sharing during emergencies
+- Integration with local emergency services
 
-### The Solution
-Guardia provides:
+### 2. Location-Based Services
+- Real-time location tracking
+- Mapping of nearby safety resources:
+  - Police stations
+  - Hospitals
+  - Women's shelters
+  - Safe zones
+- Accurate geolocation with safety radius monitoring
 
-One-click SOS activation via web interface.
+### 3. Legal Resources
+- Comprehensive information about women's rights
+- Access to important laws and acts:
+  - Protection of Women from Domestic Violence Act
+  - Sexual Harassment of Women at Workplace Act (POSH)
+  - IPC sections related to women's safety
+- Step-by-step guides for filing FIRs and police complaints
 
-Real-time location tracking using WebSockets.
+### 4. Community Support
+- Safe community space for users
+- Location-based safety alerts
+- Support network building
+- Real-time incident reporting
 
-Geofencing alerts if the user exits safe zones.
+### 5. Evidence Collection
+- Secure file storage for documentation
+- Support for various file types
+- Metadata tracking for evidence
 
-Panic alarm activation with siren sounds.
+## Technology Stack
 
-Emergency contact alerts through Firebase functions.
+- Frontend: React with TypeScript
+- Backend: Express.js
+- Database: PostgreSQL with Drizzle ORM
+- Maps Integration: Google Maps API
+- Real-time Updates: WebSocket
 
-Access to legal aid and curated self-defense videos.
+## Security Features
 
-Nearby police/hospital/shelter discovery via Google Maps API.
+- End-to-end encryption for sensitive data
+- Secure session management
+- Role-based access control
+- Input validation and sanitization
+- Protected API routes
 
-Community alerts for user-reported local incidents.
+## Getting Started
 
-Integration of Avrde AI agent (planned) to auto-generate incident reports.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Access the application at `http://localhost:5000`
 
-Firebase-secured authentication with local-only dataset storage.
+## Contributing
 
+We welcome contributions to improve Guardia. Please feel free to submit issues and pull requests.
 
-## Technical Details
-### Technologies/Components Used
-For Software:
+## License
 
-Technologies/Components Used :
-  Frontend: React , TypeScript , Tailwind CSS , Radix UI , Wouter
-  
-  Backend: Node.js , Express.js , WebSocket (ws) , Drizzle ORM
-  
-  Database: PostgreSQL (with Drizzle ORM), local dataset storage
-  
-  Authentication:	Firebase Auth (Client + Admin SDK only)
-
-  Map Services:	Google Maps API
-
-Frameworks & Libraries Used :
-
-  Frontend :
-  
-       React + TypeScript
-
-       Tailwind CSS, Radix UI
-
-       Wouter (routing), Framer Motion
-
-       React Hook Form + Zod
-
-       Lucide-react (icons), Toast notifications
-    
-  Backend :
-
-        Express.js (Node)
-
-        WebSocket (ws) for live location/SOS
-
-        Drizzle ORM + PostgreSQL
-
-        Firebase Admin SDK
-
-        Express-session (optional, if using session
-
-
-
-### Implementation
-For Software:
-# Installation
-Follow these steps to set up the project on your system:
-
- 1. Clone the Repository (if applicable)
-
-     git clone <repo-url>
-     cd guardia
-
- 2. Install Required Dependencies
-  
-    npm install
-    
-    cd client && npm install
-    
-    cd ../server && npm install
-
- 3. Create & Activate a Virtual Environment
-
-     VITE_FIREBASE_API_KEY=your_firebase_api_key
-    
-     VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-    
-     VITE_FIREBASE_PROJECT_ID=your_project_id
-    
-     VITE_GOOGLE_MAPS_API_KEY=your_google_maps_key
-
-
-# Run
-npm run dev     # Or use Replit run button with a combined script
-
-
-### Project Documentation
-For Software:
+This project is licensed under the MIT License.
 
 # Screenshots 
 ![Home Screen](https://github.com/user-attachments/assets/a866a933-acd0-4532-9dbf-76263436670a)

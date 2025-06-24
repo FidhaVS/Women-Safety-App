@@ -1,4 +1,4 @@
-# Guardia - Women's Safety Application
+
 
 Guardia is a comprehensive women's safety application designed to provide immediate assistance and support in emergency situations. The application combines real-time location tracking, emergency alerts, and access to legal resources to ensure women's safety.
 
